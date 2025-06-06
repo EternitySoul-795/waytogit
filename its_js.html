@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="CSS/its_js.css">
+</head>
+<body>
+
+    <!--  Number Guessing Game ===================================== -->
+    <div class="number-guessing-game">
+        <h1>Number Guessing Game</h1>
+        <p>We have selected a random number between 1 and 100. 
+            See if you can guess it in 10 turns or fewer. 
+            We'll tell you if your guess was too high or too low.</p>
+        <label for="guessField">Enter a Guess:</label>
+        <input type="number" name="guessField" id="guessFIELD" Class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+        <div class="resultParas">
+            <div class="guesses"></div>
+            <div class="lastResult"></div>
+            <div class="lowOrHi"></div>
+        </div>
+        <button class="resetButton" style="margin-top: 10px;"></button>
+    </div>
+
+    <!-- Auto Story Generator ==================== --> 
+    <div class="auto-story-gen">
+        <div>
+            <label for="customname">Enter custom name:</label>
+            <input id="customname" type="text" placeholder="" />
+        </div>
+        <div>
+            <label for="us">US</label>
+            <input id="us" type="radio" name="ukus" value="us" checked />
+            <label for="uk">UK</label>
+            <input id="uk" type="radio" name="ukus" value="uk" />
+        </div>
+        <div>
+            <button class="randomize">Generate random story</button>
+        </div>
+        <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+        <p class="story"></p>
+    </div>
+
+    <!--WHAT KEY IS PRESSED ==================================== -->
+    <div class="click">
+        <input type="text" class="textarea" placeholder="Click here and press any key" />
+        <p class="keycode"></p>
+    </div>
+
+    <!-- bgclrchanger ==================================== -->
+    <div class="bgclr">
+        <div class="bgclrdiv"></div>
+        <div class="bgclrdiv"></div>
+        <button class="bgclrbtn" cursor="pointer">Change Background Color</button>
+        <div class="bgclrdiv"></div>
+        <div class="bgclrdiv"></div>
+    </div>
+
+    <!-- /* Color Changer Event Target Method =========================== */ -->
+    <div class="container">
+        <div class="rgb-box"></div>
+        <div class="rgb-box"></div>
+        <div class="rgb-box"></div>
+        <div class="rgb-box"></div>
+        <div class="rgb-box"></div>
+        <div class="rgb-box"></div>
+        <div class="rgb-box"></div>
+        <div class="rgb-box"></div>
+        <div class="rgb-box"></div>
+        <div class="rgb-box"></div>
+    </div>
+
+    <div class="test-display">
+        <div class="parent-display">
+            <div class="child-display"></div>
+        </div>
+        <div class="parent-display">
+            <div class="child-display"></div>
+            <div class="child-display"></div>
+            <div class="child-display"></div>
+        </div>
+        <div class="parent-display">
+            <div class="child-display"></div>
+            <div class="child-display"></div>
+        </div>
+       
+    </div>
+
+</body>
+<script src="Scripts/script.js"></script>
+</html>
